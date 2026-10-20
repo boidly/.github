@@ -117,11 +117,5 @@ Every phase opens on a measurement, not a date, so no phase can pass on effort a
 
 Boidly comes from boids, Craig Reynolds' model of flocking, in which three simple local rules make many birds move as one ([Reynolds, 1987](https://doi.org/10.1145/37401.37406)). Boidly borrows the idea for coding agents: many of them, moving as one team. The logo is a lowercase b whose bowl is a ring that three boids fly around.
 
-<details>
-<summary><strong>Hinglish mein padhein</strong></summary>
-
-Boidly AI coding agents ki bheed ko ek team banata hai. Claude Code, Codex, Gemini CLI, Cursor, Copilot jaise agents ek hi repository par kaam karte hain, aur saath mein fail hote hain. Boidly ek open-source kernel hai jo in sab ke beech baithta hai: ek Rust binary, har bada harness, koi account nahi, aur ek open protocol (OCP) jise koi bhi implement kar sakta hai. Har task ka plan banta hai, har lease us plan step ka naam leti hai jiske liye wo kaam ho raha hai, aur ek screen par dikhta hai ki kaun kya kar raha hai aur kyun. Project abhi design stage par hai. Source pehle milestone (M0) ke baad khulega, aur pehla public release v0.5 May 2027 ke liye planned hai.
-
-</details>
 
 <p align="center"><sub>Boidly is licensed under Apache-2.0. The license does not grant rights to the Boidly name or logo.</sub></p>
