@@ -12,6 +12,7 @@
   <img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-0B1020">
   <img alt="Blueprint v0.3" src="https://img.shields.io/badge/blueprint-v0.3-0B1020">
   <img alt="Protocol: OCP" src="https://img.shields.io/badge/protocol-OCP-14B8A6">
+  <a href="https://boidly.com"><img alt="Website: boidly.com" src="https://img.shields.io/badge/web-boidly.com-14B8A6"></a>
 </p>
 
 Boidly builds open infrastructure that turns a crowd of AI coding agents into a team. Claude Code, Codex, Gemini CLI, Cursor, Copilot and the rest already work in the same repositories, and they fail together. In CooperBench, agents succeed about 30% less often working together than alone ([Khatua et al., 2026](https://arxiv.org/abs/2601.13295)). We are building the kernel that sits between all of them: one Rust binary, every major harness, no account, and an open protocol anyone can implement.
@@ -111,7 +112,15 @@ Every phase opens on a measurement, not a date, so no phase can pass on effort a
 | General | hello@boidly.com |
 | Security reports | security@boidly.com. Please report privately, never in a public issue. See [SECURITY.md](https://github.com/boidly/.github/blob/main/SECURITY.md) |
 | Code of Conduct | [Contributor Covenant 2.1](https://github.com/boidly/.github/blob/main/CODE_OF_CONDUCT.md) |
-| Website | boidly.com, coming soon |
+| Websites | [boidly.com](https://boidly.com) for the product, [boidly.dev](https://boidly.dev) for developers, [bench.boidly.dev](https://bench.boidly.dev) for FlockBench |
+
+## Support Boidly
+
+Boidly is free and open source under Apache-2.0. If it helps you, you can support its development:
+
+- **UPI**, for supporters in India: `krishankant962-6@okaxis`. The QR code is on [boidly.com/sponsor](https://boidly.com/sponsor/).
+- **Buy Me a Coffee**, from anywhere: [buymeacoffee.com/krishnakrish0052](https://buymeacoffee.com/krishnakrish0052).
+- **Companies** can write to hello@boidly.com.
 
 ## The name
 
