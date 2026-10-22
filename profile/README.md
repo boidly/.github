@@ -30,15 +30,16 @@ Boidly builds open infrastructure that turns a crowd of AI coding agents into a 
 
 ## Why it matters
 
-The numbers below come from a model anyone can rerun, not from a product yet. A baseline week of real work replaces each assumption with a measurement before any feature ships.
+The numbers below come from a model anyone can rerun, not from a product yet. The model now takes today's workflow from a baseline week of real work, measured from its session logs. Boidly's own effects stay assumptions until they are measured.
 
 | What we model | Today | With Boidly |
 | --- | --- | --- |
-| Contract conflicts nobody flags before merge, 8 agents in busy code | 14.1% of running tasks with file locks | 1.6% |
-| Cost of a task, against today's | 1.00 | 0.50 to 0.67, with review included at the top of the range. 0.77 in the conservative case |
+| Contract conflicts nobody flags before merge, at the 2 agents of the baseline week | 4.2% of running tasks with file locks | 1.0% |
+| The same at 8 agents | 14.3% | 1.5 to 1.6%. Both cases are upper bounds, because the model still crowds work more than the baseline week did |
+| Cost of a task, against today's | 1.00 | 0.41 to 0.54, with review included at the top of the range. 0.64 to 0.68 in the conservative case. Lower than before only because the measured baseline carries far more context per call, while Boidly's own effects are still assumed |
 | Disagreeing tasks needed to rank two agents, when the stronger one wins 70% of disagreements | 76 with a fixed test | 43 on average with a sequential test |
 
-<p align="center"><img src="assets/conflicts-chart.png" alt="At 8 agents, file locks leave 14.1% of tasks with an unflagged conflict, Boidly 1.6%" width="760"></p>
+<p align="center"><img src="assets/conflicts-chart.png" alt="Unflagged contract conflicts in the model calibrated to the baseline week. At 2 agents, file locks leave 4.2% of tasks and Boidly 1.0%. At 8 agents, 14.3% and 1.5 to 1.6%. Upper bounds for the measured workflow" width="760"></p>
 
 ## How it works
 
