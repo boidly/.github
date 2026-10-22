@@ -35,8 +35,8 @@ The numbers below come from a model anyone can rerun, not from a product yet. Th
 | What we model | Today | With Boidly |
 | --- | --- | --- |
 | Contract conflicts nobody flags before merge, at the 2 agents of the baseline week | 4.2% of running tasks with file locks | 1.0% |
-| The same at 8 agents | 14.3% | 1.5 to 1.6%. Both cases are upper bounds, because the model still crowds work more than the baseline week did |
-| Cost of a task, against today's | 1.00 | 0.41 to 0.59, with review included at the top of the range. 0.64 to 0.68 in the conservative case. Lower than before because the measured baseline carries far more context per call, while Boidly's compiled context keeps its earlier size and Boidly's own effects are still assumed. 0.43 to 0.61 if that context grows with the files a task edits |
+| The same at 8 agents | 14.3% | 1.5 to 1.6%. All four rates, with file locks and with Boidly, are upper bounds, because the model still crowds work more than the baseline week did |
+| Cost of a task, against today's | 1.00 | 0.41 to 0.59, with review included at the top of the range. 0.64 to 0.68 in the conservative case. Lower than v0.3's range because the measured baseline carries far more context per call, while Boidly's compiled context keeps v0.3's size and Boidly's own effects are still assumed. 0.43 to 0.61 if that context grows with the files a task edits |
 | Disagreeing tasks needed to rank two agents, when the stronger one wins 70% of disagreements | 76 with a fixed test | 43 on average with a sequential test |
 
 <p align="center"><img src="assets/conflicts-chart.png" alt="Unflagged contract conflicts in the model calibrated to the baseline week. At 2 agents, file locks leave 4.2% of tasks and Boidly 1.0%. At 8 agents, 14.3% and 1.5 to 1.6%. Upper bounds for the measured workflow" width="760"></p>
