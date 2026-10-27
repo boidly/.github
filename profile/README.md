@@ -93,8 +93,8 @@ M1's engineering is planned to land by mid-November 2026. Its recorded two-week 
 | --- | --- | --- | --- |
 | M0 · Foundation | 20 to 23 Oct 2026, passed | Repository, brand, domains, OCP v0.1 and a TLA+ lease model, the cost model, a baseline week | Baseline measured, and the lease model passes TLC |
 | M1 · Kernel | Oct to Nov 2026 | Ledger, guard hooks for Claude Code and Codex, worktree overlays, contract checks, `boidly status` | Two weeks of our own work with no unflagged contract conflict, and the guard within its latency budget |
-| M2 · Context and proof | Nov to Dec 2026 | Context compiler, expiring facts, Merkle summaries, kernel-run certificates, merge queue | 30% fewer tokens per verified task than the baseline, and no false done |
-| M3 · Scheduler and evals | Jan 2027 | Conflict-aware picking, a human-review cap, an eval pilot with two-sided sequential tests, plans and the tracker | At most 3% unflagged contract conflicts at 8 agents in FlockBench-lite |
+| M2 · Context and proof | Nov to Dec 2026 | Context compiler, expiring facts, Merkle summaries, kernel-run certificates, merge queue, real-time ledger sync between machines through a self-hosted relay | 30% fewer tokens per verified task than the baseline, and no false done |
+| M3 · Scheduler and evals | Jan 2027 | Conflict-aware picking, a human-review cap, an eval pilot with two-sided sequential tests, plans, the tracker and autopilot | At most 3% unflagged contract conflicts at 8 agents in FlockBench-lite |
 | M4 · Public v0.5 | Feb to Mar 2027 | Every harness at its highest level, sandbox mode, protected paths, the team view, a basic Radar, `bench.boidly.dev` | Two agents synced in under 5 minutes on Windows, macOS and Linux, and every harness passes conformance |
 | M5 · v1.0 | Apr to May 2027 | Relay sequencer, OCP 1.0 and its conformance suite, outside FlockBench submissions, latency budgets in CI | At most 0.6 of baseline tokens per verified task with review, and a second OCP implementation |
 | After v1.0 | from Jun 2027 | Peer-to-peer mesh, Raft authority, A2A gateway, skill tuning, full Radar, an enterprise tier | |
