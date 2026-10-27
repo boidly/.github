@@ -87,7 +87,7 @@ Boidly speaks the standards agents already use: MCP, AGENTS.md, Agent Skills and
 
 Every gate is a measurement, not a date, so no phase can pass on effort alone. Work on the next phase may start while the gate above it is being measured, but no gate is judged before the gate above it passes. The dates were re-planned on 2026-10-27 from the measured pace of M0 and M1.
 
-M1's engineering is planned to land by mid-November 2026. Its recorded two-week window of our own work runs in the second half of November, and its gate is judged about the end of November. M2's work starts during that window, and its gate is judged only after M1 passes, by the end of December.
+M1's engineering is planned to land by mid-November 2026. Its recorded two-week window of our own work runs in the second half of November, and its gate is judged around the end of November. M2's work starts during that window, and its gate is judged only after M1 passes, by the end of December.
 
 | Phase | When (planned) | What ships | Gate to the next phase |
 | --- | --- | --- | --- |
