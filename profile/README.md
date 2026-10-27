@@ -18,7 +18,7 @@
 Boidly builds open infrastructure that turns a crowd of AI coding agents into a team. Claude Code, Codex, Gemini CLI, Cursor, Copilot and the rest already work in the same repositories, and they fail together. In CooperBench, agents succeed about 30% less often working together than alone ([Khatua et al., 2026](https://arxiv.org/abs/2601.13295)). We are building the kernel that sits between all of them: one Rust binary, every major harness, no account, and an open protocol anyone can implement.
 
 > [!NOTE]
-> Boidly is in the design stage. The blueprint, the logo and the model behind every number are written. The source opens when the first milestone, M0, is done, and the first public release, v0.5, is planned for May 2027.
+> Boidly is in the design stage. The blueprint, the logo and the model behind every number are written. The source opens when the first milestone, M0, is done, and the first public release, v0.5, is planned for March 2027.
 
 ## What we are building
 
@@ -85,17 +85,17 @@ Boidly speaks the standards agents already use: MCP, AGENTS.md, Agent Skills and
 
 ## Roadmap
 
-Every phase opens on a measurement, not a date, so no phase can pass on effort alone.
+Every phase opens on a measurement, not a date, so no phase can pass on effort alone. Work on the next phase may start while the gate above it is being measured, but no gate is judged before the gate above it passes. The dates were re-planned on 2026-10-27 from the measured pace of M0 and M1.
 
 | Phase | When (planned) | What ships | Gate to the next phase |
 | --- | --- | --- | --- |
-| M0 · Foundation | Oct to Nov 2026 | Repository, brand, domains, OCP v0.1 and a TLA+ lease model, the cost model, a baseline week | Baseline measured, and the lease model passes TLC |
-| M1 · Kernel | Nov to Dec 2026 | Ledger, guard hooks for Claude Code and Codex, worktree overlays, contract checks, `boidly status` | Two weeks of our own work with no unflagged contract conflict, and the guard within its latency budget |
-| M2 · Context and proof | Jan to Feb 2027 | Context compiler, expiring facts, Merkle summaries, kernel-run certificates, merge queue | 30% fewer tokens per verified task than the baseline, and no false done |
-| M3 · Scheduler and evals | Mar to Apr 2027 | Conflict-aware picking, a human-review cap, an eval pilot with two-sided sequential tests, plans and the tracker | At most 3% unflagged contract conflicts at 8 agents in FlockBench-lite |
-| M4 · Public v0.5 | May 2027 | Every harness at its highest level, sandbox mode, protected paths, the team view, a basic Radar, `bench.boidly.dev` | Two agents synced in under 5 minutes on Windows, macOS and Linux, and every harness passes conformance |
-| M5 · v1.0 | Jun to Aug 2027 | Relay sequencer, OCP 1.0 and its conformance suite, outside FlockBench submissions, latency budgets in CI | At most 0.6 of baseline tokens per verified task with review, and a second OCP implementation |
-| After v1.0 | from Sep 2027 | Peer-to-peer mesh, Raft authority, A2A gateway, skill tuning, full Radar, an enterprise tier | |
+| M0 · Foundation | 20 to 23 Oct 2026, passed | Repository, brand, domains, OCP v0.1 and a TLA+ lease model, the cost model, a baseline week | Baseline measured, and the lease model passes TLC |
+| M1 · Kernel | Oct to Nov 2026 | Ledger, guard hooks for Claude Code and Codex, worktree overlays, contract checks, `boidly status` | Two weeks of our own work with no unflagged contract conflict, and the guard within its latency budget |
+| M2 · Context and proof | Nov to Dec 2026 | Context compiler, expiring facts, Merkle summaries, kernel-run certificates, merge queue | 30% fewer tokens per verified task than the baseline, and no false done |
+| M3 · Scheduler and evals | Jan 2027 | Conflict-aware picking, a human-review cap, an eval pilot with two-sided sequential tests, plans and the tracker | At most 3% unflagged contract conflicts at 8 agents in FlockBench-lite |
+| M4 · Public v0.5 | Feb to Mar 2027 | Every harness at its highest level, sandbox mode, protected paths, the team view, a basic Radar, `bench.boidly.dev` | Two agents synced in under 5 minutes on Windows, macOS and Linux, and every harness passes conformance |
+| M5 · v1.0 | Apr to May 2027 | Relay sequencer, OCP 1.0 and its conformance suite, outside FlockBench submissions, latency budgets in CI | At most 0.6 of baseline tokens per verified task with review, and a second OCP implementation |
+| After v1.0 | from Jun 2027 | Peer-to-peer mesh, Raft authority, A2A gateway, skill tuning, full Radar, an enterprise tier | |
 
 ## What we believe
 
